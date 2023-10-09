@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background:url(contact.jpg);
+        background-size:30%;
+        background-position: center;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent !important;
+    box-shadow: 22px 32px 18px 18px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 25%;
+    width: 40%;
+    height: 50%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 1px;
+    border-radius: 18px;
+
+}
+
+.container h2{
+    font-size: 5vh;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 15px;
+    color: white !important;
+}
+
+.container p{
+    font-size: 2vh;
+    text-align: center !important;
+    padding: 19px;
+}
+
+.form-group{
+    font-size: 2vh;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+
+}
+
+.form-group::placeholder{
+    font-size: large;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-top: 25px;
+    margin-left: 10px;
+
+}
+
+.form-control{
+    text-align: left;
+    font-size: 2vh;
+    width: 80%;
+    height: 80px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255) !important;
+    color: black !;
+    font-weight: 500;
+
+}
+
+textarea{
+    font-size: 1.9vh;
+    border-radius: 8px;
+    background-color:rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !;
+    font-weight: 500;
+    width: 80%;
+    height: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-center button{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    padding-inline: 12px;
+    width: 25%;
+    height: 60px;
+    background:linear-gradient(45deg #fff #fff);
+    font-size: 1.3vh;
+    font-weight: 550;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    cursor: pointer;
+}
+
+.text-clear{
+    text-align: center;
+    margin: 19px;
+}
+
+.text-clear button{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    padding-inline: 12px;
+    width: 25%;
+    height: 61px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3vh;
+    font-weight: 550;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    cursor: pointer;
+}

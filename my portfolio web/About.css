@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background: url(About-back.jpg);
+        background-size: cover;
+        background-position: center;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content:unsafe;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border-radius: 60%;
+}
+
+.personal{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+    margin-left: 2%;
+    width: 50%;
+    height: 13%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color:transparent !important;
+    box-sizing: content-box;
+    box-sizing: content-box;
+    box-shadow: 12px 13px 18px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: 1.5s ease-in-out;
+}
+
+.personal h1{
+    font-size: 4vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.personal p{
+    font-size: 2vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.Education{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+    margin-left: 45%;
+    margin-top: 10px;
+    width: 50%;
+    height: 13%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color:transparent !important;
+    box-sizing: content-box;
+    box-sizing: content-box;
+    box-shadow: 12px 13px 18px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: 0.5s step-start;
+}
+
+.Education h1{
+    font-size: 4vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.Education p{
+    font-size: 2vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.Experiences{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+    margin-left: 2%;
+    width: 50%;
+    height: 13%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: transparent !important;
+    box-sizing: content-box;
+    box-sizing: content-box;
+    box-shadow: 12px 13px 18px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: 1.5s ease-in-out;
+}
+
+.Experiences h1{
+    font-size: 4vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.Experiences p{
+    font-size: 2vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.Interests{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+    margin-left: 45%;
+    width: 50%;
+    height: 13%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: transparent !important;
+    box-sizing: content-box;
+    box-sizing: content-box;
+    box-shadow: 12px 13px 18px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: 0.5s step-start;
+}
+
+.Interests h1{
+    font-size: 4vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.Interests p{
+    font-size: 2vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.Beliefs{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+    margin-left: 2%;
+    width: 50%;
+    height: 13%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: transparent !important;
+    box-sizing: content-box;
+    box-sizing: content-box;
+    box-shadow: 12px 13px 18px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: 1.5s ease-in-out;
+}
+
+.Beliefs h1{
+    font-size: 4vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.Beliefs p{
+    font-size: 2vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.Others{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 52px;
+    margin-left: 45%;
+    width: 50%;
+    height: 13%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color:transparent !important;
+    box-sizing: content-box;
+    box-sizing: content-box;
+    box-shadow: 12px 13px 18px;
+    margin-top: 30px;
+    border-radius: 15px;
+    transition: 0.5s step-start;
+}
+
+.Others h1{
+    font-size: 4vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.Others p{
+    font-size: 2vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
